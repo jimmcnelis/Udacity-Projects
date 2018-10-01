@@ -89,6 +89,10 @@ main {
 
 }
 
+img {
+    display: inline-flex;
+}
+
 .caption {
 
 }
