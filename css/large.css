@@ -1,28 +1,48 @@
 /* CSS for desktop displays */
 .logo-title {
-
+    background-color: white;
+    width: 960px;
+    height: 150px;
+    display: flex;
+    margin: auto;
 }
 
 .logo {
-
+    display: inline-flex;
+    max-width:25%;
+    max-height:95%;
+    padding: 5px;
+    order:0;
 }
 
 .name {
-
+    display: flex;
+    max-width:100%;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    order:1;
 }
 
 .my-name {
-
+    font-size: 3em;
+    font-weight: bold;
 }
 
 .name-subtitle {
-
+    font-size: 1.2em;
+    font-style: italic;
 }
 
 .container {
-
+    background-color: dimgrey;
 }
 
+main {
+    background-color: white;
+    width: 960px;
+    margin: auto;
+}
 .color-palette {
 
 }
