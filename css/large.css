@@ -31,6 +31,24 @@
 
 }
 
+.box-1 {
+    width: 100px;
+    height: 100px;
+    background-color: #f7bc56;
+}
+
+.box-2 {
+    width: 100px;
+    height: 100px;
+    background-color: #ffe0e5;
+}
+
+.box-3 {
+    width: 100px;
+    height: 100px;
+    background-color: #a7caea;
+}
+
 .hero {
 
 }
@@ -51,7 +69,7 @@
 
 }
 
-.featured-image-text {
+.caption {
 
 }
 
