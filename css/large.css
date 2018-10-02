@@ -18,6 +18,10 @@
     margin: auto;
 }
 
+.empty {
+    width: 162px;
+}
+
 .logo {
     align-self: auto;
     max-width:25%;
