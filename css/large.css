@@ -1,37 +1,52 @@
 /* CSS for desktop displays */
+.containter {
+    display: flex;
+    align-content: flex-start;
+    margin: auto;
+}
+
 .logo-title {
     background-color: white;
     width: 960px;
     height: 150px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
     margin: auto;
 }
 
 .logo {
-    display: inline-flex;
+    align-self: auto;
     max-width:25%;
     max-height:95%;
-    padding: 5px;
+    padding: 10px;
     order:0;
 }
 
 .name {
-    display: flex;
-    max-width:100%;
+    flex: 1;
+    align-self: flex-end;
+    max-width:85%;
     width: auto;
-    height: auto;
-    padding: 5px;
+    height: 140px;
+    padding: 10px;
     order:1;
 }
 
 .my-name {
     font-size: 3em;
     font-weight: bold;
+    text-align: end;
+    height: 25px;
 }
 
 .name-subtitle {
     font-size: 1.2em;
     font-style: italic;
+    text-align: end;
 }
 
 .container {
@@ -44,7 +59,7 @@ main {
     margin: auto;
 }
 .color-palette {
-
+    padding: 10px;
 }
 
 .color-box {
