@@ -1,6 +1,6 @@
 /* CSS for desktop displays */
 /* container for top section flexbox */
-.logo-title {
+#logo-title {
     background-color: white;
     width: 80%;
     display: flex;
@@ -61,7 +61,7 @@ main {
     justify-content: flex-start;
     margin: auto;
 }
-.color-palette {
+#color-palette {
     max-width: 100%;
     min-width: 8%;
     display: flex;
@@ -94,7 +94,7 @@ main {
     margin-left: 0.5em;
 }
 
-.hero {
+#hero {
     padding-top: 1em;
     min-width: 70%;
     padding-left: 0.75%;
@@ -107,7 +107,7 @@ main {
     flex: 1;
 }
 
-.featured {
+#featured {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
