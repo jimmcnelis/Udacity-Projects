@@ -10,14 +10,8 @@
     font-family: Arial, serif;
 }
 
-/* used to move the logo to the right to match the example layout */
-.empty {
-    width: 8%;
-}
-
 .logo {
     align-self: auto;
-    max-width:20%;
     max-height: 8em;
     padding-right: 1em;
     padding-top: 1em;
@@ -110,22 +104,22 @@ main {
 .featured {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: flex-start;
-    padding-left: 8%;
-
-
+    padding-left: 7.5%;
 
 }
 
 .featured-title {
     padding-left: 10%;
-    margin: 0.5em;
+    font-size: 1.5em;
+
 }
 
 .featured-images {
     flex: 1;
-    max-width:25%;
+    min-width: 22%;
+    max-width: 26.3%;
 }
 
 img {
