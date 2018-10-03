@@ -2,43 +2,41 @@
 /* container for top section flexbox */
 .logo-title {
     background-color: white;
-    width: 960px;
-    height: 150px;
+    width: 90%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-content: stretch;
-    align-items: stretch;
     margin: auto;
-    padding-left: 40px;
-    padding-right: 40px;
     font-family: Arial, serif;
 }
 
 /* used to move the logo to the right to match the example layout */
 .empty {
-    width: 162px;
-    height: 150px;
+    width: 8%;
 }
 
 .logo {
     align-self: auto;
-    max-width:25%;
-    max-height:95%;
-    padding: 10px;
+    max-width:20%;
+    max-height: 8em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 10%;
     order:1;
     border: none;
+    border-bottom-style: solid;
+    border-color: dimgrey;
 }
 
 .name {
     flex: 1;
     align-self: flex-end;
-    max-width:85%;
-    width: auto;
-    height: 140px;
-    margin-right: 10px;
+    max-width:75%;
     order:2;
+    border-bottom-style: solid;
+    border-color: dimgrey;
+    margin-right: 1em;
 }
 
 .my-name {
@@ -62,18 +60,15 @@ body {
 
 main {
     background-color: white;
-    width: 960px;
+    width: 90%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     margin: auto;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 .color-palette {
-    padding: 10px;
-    max-width:  20%;
+    min-width: 10%;
     align-self: flex-start;
 }
 
@@ -82,37 +77,34 @@ main {
 }
 
 .box-1 {
-    width: 60px;
-    height: 60px;
+    width: 4em;
+    height: 4em;
     background-color: #f7bc56;
-    margin-left: 7px;
+    margin-left: 0.5em;
 }
 
 .box-2 {
-    width: 60px;
-    height: 60px;
+    width: 4em;
+    height: 4em;
     background-color: #ffe0e5;
-    margin-left: 7px;
+    margin-left: 0.5em;
 }
 
 .box-3 {
-    width: 60px;
-    height: 60px;
+    width: 4em;
+    height: 4em;
     background-color: #a7caea;
-    margin-left: 7px;
+    margin-left: 0.5em;
 }
 
 .hero {
-    padding-top: 20px;
-    padding-right: 10px;
-    min-width:  80%;
-    align-self: center;
-    border-top-style: solid;
-    border-color: dimgrey;
-
+    padding-top: 1em;
+    min-width: 83%;
 }
 
 .hero-image {
+    display: inherit;
+    flex: 1;
 }
 
 .featured {
@@ -120,22 +112,20 @@ main {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    align-content: stretch;
-    align-items: stretch;
-    margin: auto;
-    padding-right: 10px;
+    padding-left: 8%;
+
+
+
 }
 
 .featured-title {
-    padding-left: 169px;
-    max-height: 20px;
-    margin: 5px;
+    padding-left: 10%;
+    margin: 0.5em;
 }
 
 .featured-images {
-    align-self: auto;
     flex: 1;
-    max-width:30%;
+    max-width:25%;
 }
 
 img {
@@ -146,8 +136,8 @@ img {
 }
 
 .caption {
-    padding-top: 5px;
-    font-size: 1.2em;
+    padding-top: 0.2em;
+    font-size: 1em;
     text-align: center;
 }
 
