@@ -7,26 +7,26 @@
     flex-wrap: nowrap;
     margin: auto;
 }
+.header-border {
+    border-bottom-style: solid;
+    border-color: dimgrey;
+}
 
 .logo {
     max-width: 100%;
     max-height: 8em;
     padding: 1em 1em 1em 0;
     margin-left: 11%;
-    order:1;
-    border: none;
+    border: none dimgrey;
     border-bottom-style: solid;
-    border-color: dimgrey;
 }
 
 .name {
     flex: 1;
     align-self: flex-end;
     max-width:72.5%;
-    order:2;
-    border-bottom-style: solid;
-    border-color: dimgrey;
     margin-right: 1em;
+    order:1;
 }
 
 .my-name {
@@ -123,8 +123,7 @@ main {
 img {
     max-width: 100%;
     height: auto;
-    border-style: solid;
-    border-color: lightgrey;
+    border: solid lightgrey;
 }
 
 .caption {
