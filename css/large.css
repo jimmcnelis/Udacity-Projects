@@ -98,7 +98,6 @@ main {
 }
 
 .hero-image {
-    display: inherit;
     flex: 1;
 }
 
@@ -107,7 +106,6 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
     padding-left: 8.5%;
 }
 
