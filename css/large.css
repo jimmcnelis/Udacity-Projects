@@ -2,7 +2,7 @@
 /* container for top section flexbox */
 .logo-title {
     background-color: white;
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -26,7 +26,7 @@
 .name {
     flex: 1;
     align-self: flex-end;
-    max-width:72%;
+    max-width:72.5%;
     order:2;
     border-bottom-style: solid;
     border-color: dimgrey;
@@ -49,12 +49,12 @@
 body {
     background-color: dimgrey;
     font-family: Arial, serif;
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 main {
     background-color: white;
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -70,7 +70,7 @@ main {
 }
 
 .color-box {
-    flex: 1;
+
 }
 
 .box-1 {
@@ -96,9 +96,9 @@ main {
 
 .hero {
     padding-top: 1em;
-    min-width: 72.5%;
-    padding-left: 2%;
-    padding-right: 9%;
+    min-width: 70%;
+    padding-left: 0.75%;
+    padding-right: 7.25%;
     flex: 1;
 }
 
