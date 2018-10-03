@@ -107,13 +107,11 @@ main {
     flex-wrap: wrap;
     justify-content: flex-start;
     padding-left: 7.5%;
-
 }
 
 .featured-title {
     padding-left: 10%;
     font-size: 1.5em;
-
 }
 
 .featured-images {
