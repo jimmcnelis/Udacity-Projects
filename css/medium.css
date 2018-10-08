@@ -22,6 +22,7 @@ main {
 /* changing from column to row for flex direction */
 #color-palette {
     padding-top: 4%;
+    margin-left: 2%;
     flex-direction: row;
     width: 90%
 }
