@@ -1,0 +1,45 @@
+/* For medium sized screens like iPads */
+
+/* Header */
+#logo-title {
+    width: 100%;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+main {
+    width: 100%;
+}
+
+#color-palette {
+    padding-top: 4%;
+    flex-direction: row;
+    width: 90%
+}
+
+.color-box {
+    width: 5%;
+    flex: 1;
+    align-items: baseline;
+}
+
+#hero {
+    padding: 5%;
+    min-width: 90%;
+}
+
+#featured {
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.featured-title {
+    padding-left: 5%;
+}
+
+.featured-images {
+    padding: 5% 0 5% 0;
+    min-width: 75%;
+}

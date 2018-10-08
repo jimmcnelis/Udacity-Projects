@@ -1,0 +1,28 @@
+/* for mobile phone screens */
+
+#logo-title {
+    flex-wrap: wrap;
+}
+
+.logo {
+    max-height: 4em;
+    margin: auto;
+    padding-left: 1em;
+}
+
+.name {
+    max-width: 90%;
+    width: 100%;
+    align-self: center;
+}
+
+.my-name {
+    font: bold 1.5em/0.0 Arial, sans-serif;
+    text-wrap: avoid;
+
+}
+
+.name-subtitle {
+    font: italic 0.7em/0.0 Arial, sans-serif;
+    text-wrap: normal;
+}
