@@ -15,6 +15,7 @@
 
 .logo {
     max-width: 100%;
+    height: auto;
     max-height: 8em;
     padding: 1em 1em 1em 0;
     margin-left: 11%;
@@ -100,6 +101,8 @@ main {
 
 .hero-image {
     flex: 1;
+    max-width:100%;
+    height: auto;
 }
 
 /* Featured Content */
