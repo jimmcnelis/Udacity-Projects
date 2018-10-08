@@ -1,3 +1,4 @@
+/* Primary CSS file that is optimized for desktop */
 /* Header */
 #logo-title {
     background-color: lightcoral;
@@ -22,6 +23,7 @@
     align-self: flex-end;
     max-width: 72.5%;
     margin-right: 1em;
+    padding-bottom: 0.5em;
     order: 1;
 }
 

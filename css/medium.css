@@ -3,11 +3,14 @@
 #logo-title {
     width: 100%;
 }
+
 /* shrinking margin for better fit on page */
 .logo {
     margin-left: 5%;
 }
-
+.name {
+    align-self: center;
+}
 body {
     margin: 0;
 }
@@ -16,6 +19,7 @@ main {
     width: 100%;
 }
 
+/* changing from column to row for flex direction */
 #color-palette {
     padding-top: 4%;
     flex-direction: row;
@@ -33,6 +37,7 @@ main {
     min-width: 90%;
 }
 
+/* Making the section wrap */
 #featured {
     flex-wrap: wrap;
     padding: 0;
