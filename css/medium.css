@@ -1,12 +1,15 @@
-/* For medium sized screens like iPads */
+/* For medium sized screens responsiveness */
 
-/* Header */
 #logo-title {
     width: 100%;
 }
-
+/* shrinking margin for better fit on page */
 .logo {
     margin-left: 5%;
+}
+
+body {
+    margin: 0;
 }
 
 main {
@@ -40,6 +43,7 @@ main {
 }
 
 .featured-images {
-    padding: 5% 0 5% 0;
-    min-width: 75%;
+    padding: 5%;
+    min-width: 20%;
+    max-width: 80%;
 }
